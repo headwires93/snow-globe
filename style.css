@@ -1,0 +1,41 @@
+body {
+    background: #00003f;
+}
+h1 {
+    color: #fff;
+    margin: 30px 0px 0px 0px;
+    text-align: center;
+    font-family: 'Playball', cursive;
+    font-weight: 400;
+    font-size: 50px ;
+}
+
+svg {
+    margin: auto;
+    display: block;
+    padding: 20px 0px 30px 0px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+button {
+    cursor: pointer;
+    background: #9f0b0b;
+    border: none;
+    padding: 10px 40px;
+    color: #fff;
+    margin: 0px 10px;
+    font-size: 18px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;   
+}
+button:hover {
+    background: #6d0707;
+}
+
+.remove {
+    display: none;
+}
